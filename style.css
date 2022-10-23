@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 700px;
+    margin: auto;
+}
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+.nav ul li {
+    display: inline-block;
+}
+.nav ul li a {
+    display: block;
+    padding: 6px 59px;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.nav ul li:hover {
+    background-color: red;
+}
+.main img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    padding-top: 6px;
+}
+.main p {
+    font-size: 20px;
+}
+.active {
+    text-decoration: none;
+    color: brown;
+}
+.active:hover {
+    color: red;
+}
+.products {
+    clear: left;
+    padding-top: 1px;
+}
+.products h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.products ol li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ways h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ways ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer h3 {
+    color: red;
+}
+@media screen and (max-width: 700px) {
+    .container {
+        text-align: center;
+        width: 500px;
+    }
+    .main img {
+        float: none;
+    }
+    /* .main p {
+        width: 400px;
+        margin: auto;
+    } */
+    ul {
+        list-style-type: none;
+    }
+    ol {
+        list-style-type: none;
+    }
+    .nav ul li a {
+        display: block;
+        padding: 6px 30px;
+        text-decoration: none;
+        color: white;
+        font-family: cursive;
+    }
+}
